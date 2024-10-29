@@ -1,0 +1,157 @@
+.static-box {
+    position:static;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(109, 151, 242);
+}
+.relative-box {
+    position: relative;
+    top:20px;
+    left: 20px;
+    background-color: rgb(200, 140, 255);
+    width:200px;
+    height: 100px;
+}
+.container {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(186, 186, 186);
+}
+.absolute-box {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    width:200px;
+    height:100px;
+    background-color: rgb(241, 108, 108);
+}
+.fixed-box{
+    position: fixed;
+    width: 200px;
+    height: 100px;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgb(167, 192, 143);
+
+}
+.background-image{
+    background-image: url(texture1.jpg);
+    background-size: cover;
+    background-position: center;
+   width: 100%;
+   height:100vh;
+}
+.sticky-box{
+    position: sticky;
+    top:0px;
+    background-color: rgb(234, 179, 159);
+    padding: 10px;
+}
+.content{
+    height: 1500px;
+}
+.background-image-repeat{
+    background-image: url(texture2.jpg);
+    background-repeat: repeat;
+    width: 100%;
+    height: 100vh;
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(142, 142, 248);
+    position:absolute;
+    top: 50px;
+    left:70px;
+    z-index: 1;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(233, 144, 144);
+    position: absolute;
+    top:70px;
+    left: 70px;
+    z-index: 2;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(130, 115, 145);
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(99, 152, 209);
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+}
+.flex-space-between{
+    display: flex;
+    justify-content: space-between;
+}
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(59, 81, 105);
+    text-align: center;
+    line-height: 100px;
+}
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+}
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(228, 139, 224);
+    text-align: center;
+    line-height: 100px;
+}
+.flex-align-center{
+    display:flex;
+    align-items: center;
+    height: 200px; 
+}
+.child{
+    width: 100px;
+    background-color: coral;
+    text-align: center;
+}
+.flex-align-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 300px;
+}
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(59, 81, 105);
+    text-align: center;
+    line-height: 100px;
+    margin: 5px;
+}
+.flex-container{
+    display: flex;
+}
+.child{
+    flex-grow: 1;
+}
+.child-grow{
+    flex-grow: 2;
+}
